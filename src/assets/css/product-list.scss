@@ -1,0 +1,57 @@
+@import "variable";
+
+.product-list {
+  @include gridLayout(300px auto, 25px);
+
+  .products {
+    @include gridLayout(repeat(4, 1fr), 25px);
+    grid-row-gap: 25px;
+
+    &__item {
+      background: #4c555f;
+      border-radius: 5px;
+      padding: 15px;
+
+      &:hover {
+        button {
+          background: #fff;
+        }
+      }
+
+      .image {
+
+        img {
+          width: 40%;
+        }
+      }
+
+      h1 {
+        font-size: 20px;
+        height: 100px;
+        margin-top: 10px;
+      }
+
+      .price {
+        s {
+          margin: 0 5px;
+        }
+
+        span {
+          font-size: 20px;
+        }
+      }
+
+      button {
+        @include button
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .product-list {
+    .products {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

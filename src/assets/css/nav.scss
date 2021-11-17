@@ -1,0 +1,37 @@
+nav {
+  background: #282f36;
+
+  ul {
+    li {
+      &:last-child {
+        display: block;
+        padding: 15px 25px;
+        cursor: pointer;
+
+        &:hover {
+          color: #fff;
+        }
+      }
+
+      i {
+        width: 35px;
+        font-size: 15px;
+      }
+
+      a {
+        display: block;
+        padding: 15px 25px;
+
+
+        &:hover {
+          color: #fff;
+        }
+
+        &.active {
+          color: #fff;
+          background: rgb(255, 255, 255, 0.08);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "R.Y.V. Silicone Badge Tee",
+      "image": "band.png",
+      "color": "Orange",
+      "price": 450000,
+      "sale": 25,
+      "id": 1
+    },
+    {
+      "name": "Essentials Fleece Open Hem 3-Stripes Pants",
+      "image": "Bản sao shirt.png",
+      "color": "Blue",
+      "price": 6000000,
+      "sale": 50,
+      "id": 2
+    },
+    {
+      "name": "Essentials Fleece 3-Stripes Full-Zip Hoodie",
+      "image": "Bản sao tshirt (1).png",
+      "color": "Pink",
+      "price": 450000,
+      "sale": 0,
+      "id": 3
+    }
+  ]
+}

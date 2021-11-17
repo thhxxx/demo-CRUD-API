@@ -1,0 +1,15 @@
+@mixin gridLayout($columns, $gap) {
+  display: grid;
+  grid-template-columns: $columns;
+  grid-column-gap: $gap;
+}
+
+@mixin button() {
+  background: #99A4AE;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  text-transform: capitalize;
+  transition: all .25s ease;
+}

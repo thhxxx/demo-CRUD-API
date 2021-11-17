@@ -1,0 +1,52 @@
+@import "variable";
+
+.add-product {
+  @include gridLayout(auto 350px, 25px);
+
+  .form-input {
+    @include gridLayout(repeat(3, 1fr), 25px);
+    grid-row-gap: 25px;
+
+    .item {
+      &:first-child {
+        grid-column: 1/2;
+      }
+
+      &:nth-child(2) {
+        grid-column: 2/4;
+      }
+
+      &:last-child {
+        grid-column: 1/4;
+      }
+
+      label {
+        margin-bottom: 5px;
+        display: block;
+      }
+
+      button {
+        @include button;
+        width: auto;
+        padding: 0 25px;
+        background: #61dafb;
+      }
+
+      input[type=text] {
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 0 10PX;
+        width: 100%;
+      }
+
+      input[type=number] {
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        padding: 0 10PX;
+        width: 100%;
+      }
+    }
+  }
+}

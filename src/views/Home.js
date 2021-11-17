@@ -1,7 +1,7 @@
-export const ListStudent = () => {
+export const Home = () => {
     return (
         <div>
-
+            h
         </div>
     )
 }
