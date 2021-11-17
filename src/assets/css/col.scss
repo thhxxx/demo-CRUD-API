@@ -1,0 +1,11 @@
+.col {
+  background: #282f36;
+  border-radius: 3px;
+
+  &__title {
+    padding: 25px;
+    border-bottom: 1px solid #2d343c;
+    font-size: 18px;
+    color: #fff;
+  }
+}
